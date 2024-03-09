@@ -1,0 +1,567 @@
+.iconsaxlinearnotification {
+    height: 28px;
+    width: 28px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    z-index: 0;
+  }
+  .frame-child3 {
+    height: 0;
+    width: 384.5px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .ellipse-icon {
+    height: 72px;
+    width: 72px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .user-1 {
+    height: 29px;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  .account {
+    position: relative;
+    font-size: 16px;
+    color: #9b9b9b;
+  }
+  .ellipse-container,
+  .frame-wrapper8,
+  .user-1-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .user-1-parent {
+    gap: 8px 0;
+  }
+  .ellipse-container,
+  .frame-wrapper8 {
+    padding: 8px 0 0;
+  }
+  .ellipse-container {
+    flex-direction: row;
+    padding: 0 0 6px;
+    gap: 0 24px;
+  }
+  .chats {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .frame-child4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #4f4c4c;
+    width: 100%;
+    height: 100%;
+  }
+  .chat-img1-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .frame-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 71px;
+    width: 71px;
+  }
+  .frame-button,
+  .friend-1 {
+    position: relative;
+  }
+  .frame-parent19,
+  .friend-1-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .friend-1-wrapper {
+    flex-direction: column;
+    padding: 21px 0 0;
+  }
+  .frame-parent19 {
+    flex-direction: row;
+    gap: 0 28px;
+  }
+  .frame-child5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 71px;
+    height: 71px;
+  }
+  .chat-img2-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .chat-img2-1-icon,
+  .vector-parent {
+    height: 71px;
+    width: 71px;
+  }
+  .friend-2,
+  .vector-parent {
+    position: relative;
+  }
+  .chat-area,
+  .frame-parent20 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .chat-area {
+    flex-direction: column;
+    padding: 21px 0 0;
+  }
+  .frame-parent20 {
+    flex-direction: row;
+    gap: 0 29px;
+  }
+  .frame-child6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #4f4c4c;
+    width: 100%;
+    height: 100%;
+  }
+  .chat-img3-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .ellipse-parent1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 71px;
+    width: 71px;
+    position: relative;
+  }
+  .friend-3 {
+    align-self: stretch;
+    position: relative;
+  }
+  .frame-parent21,
+  .friend-3-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .friend-3-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: 25px 0 0;
+  }
+  .frame-parent21 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 33px;
+  }
+  .frame-child7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #4f4c4c;
+    width: 100%;
+    height: 100%;
+  }
+  .chat-img4-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .ellipse-parent2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 71px;
+    width: 71px;
+  }
+  .ellipse-parent2,
+  .friend-4 {
+    position: relative;
+  }
+  .frame-parent22,
+  .friend-4-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .friend-4-wrapper {
+    flex-direction: column;
+    padding: 21px 0 0;
+  }
+  .frame-parent22 {
+    flex-direction: row;
+    gap: 0 33px;
+  }
+  .frame-child8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #4f4c4c;
+    width: 100%;
+    height: 100%;
+  }
+  .chat-img5-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .ellipse-parent3 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 71px;
+    width: 71px;
+  }
+  .ellipse-parent3,
+  .friend-5 {
+    position: relative;
+  }
+  .frame-parent23,
+  .friend-5-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .friend-5-wrapper {
+    flex-direction: column;
+    padding: 26px 0 0;
+  }
+  .frame-parent23 {
+    flex-direction: row;
+    gap: 0 32px;
+  }
+  .frame-child9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #4f4c4c;
+    width: 100%;
+    height: 100%;
+  }
+  .chat-img6-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .ellipse-parent4 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 71px;
+    width: 71px;
+  }
+  .ellipse-parent4,
+  .friend-6 {
+    position: relative;
+  }
+  .frame-parent24,
+  .friend-6-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  .friend-6-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 21px 0 0;
+  }
+  .frame-parent24 {
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .frame-child10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #4f4c4c;
+    width: 100%;
+    height: 100%;
+  }
+  .chat-img7-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .ellipse-parent5 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 71px;
+    width: 71px;
+  }
+  .ellipse-parent5,
+  .friend-7 {
+    position: relative;
+  }
+  .frame-parent25,
+  .friend-7-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  .friend-7-wrapper {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 21px 0 0;
+  }
+  .frame-parent25 {
+    width: 203px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .chats-parent,
+  .frame-parent18 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 28px 0;
+    font-size: 24px;
+  }
+  .chats-parent {
+    gap: 55px 0;
+    font-size: 40px;
+  }
+  .ellipse-chat-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #4f4c4c;
+    width: 100%;
+    height: 100%;
+  }
+  .chat-img8-1-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    width: 71px;
+    height: 71px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .ellipse-chat {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 71px;
+    width: 71px;
+  }
+  .ellipse-chat,
+  .friend-8 {
+    position: relative;
+  }
+  .friend-label {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 21px 0 0;
+  }
+  .chat-image,
+  .frame-parent17,
+  .friend-label {
+    display: flex;
+    align-items: flex-start;
+  }
+  .chat-image {
+    width: 205px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .frame-parent17 {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 39px 0;
+  }
+  .green-dot-1 {
+    height: 10px;
+    width: 10px;
+    position: relative;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #8a16c0, #c23389);
+    display: none;
+    z-index: 3;
+  }
+  .green-dot-5 {
+    position: absolute;
+    margin: 0 !important;
+    right: 32px;
+    bottom: 512px;
+  }
+  .green-dot-5,
+  .green-dot-6,
+  .green-dot-7 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #a816c0, #c23389);
+  }
+  .green-dot-6 {
+    position: absolute;
+    margin: 0 !important;
+    right: 32px;
+    bottom: 319px;
+  }
+  .green-dot-7 {
+    position: relative;
+    z-index: 1;
+  }
+  .green-dot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 349px 0 0;
+  }
+  .green-dot-8 {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin: 0 !important;
+    right: 32px;
+    bottom: 209px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #a816c0, #c23389);
+  }
+  .iconsaxlinearnotification-parent {
+    flex: 1;
+    border-left: 1px solid #3e3e3e;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 27px 32px 179px 35px;
+    position: relative;
+    gap: 0 10px;
+    max-width: 100%;
+    z-index: 1;
+    text-align: left;
+    font-size: 24px;
+    color: #fff;
+    font-family: Inter;
+  }
+  @media screen and (max-width: 1025px) {
+    .chats {
+      font-size: 32px;
+    }
+    .iconsaxlinearnotification-parent {
+      padding-top: 20px;
+      padding-bottom: 116px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .iconsaxlinearnotification-parent {
+      padding-bottom: 75px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .user-1 {
+      font-size: 19px;
+    }
+    .chats {
+      font-size: 24px;
+    }
+    .friend-1,
+    .friend-2,
+    .friend-3 {
+      font-size: 19px;
+    }
+    .frame-parent21 {
+      gap: 0 16px;
+    }
+    .friend-4,
+    .friend-5,
+    .friend-6,
+    .friend-7 {
+      font-size: 19px;
+    }
+    .chats-parent {
+      gap: 27px 0;
+    }
+    .friend-8 {
+      font-size: 19px;
+    }
+    .frame-parent17 {
+      gap: 19px 0;
+    }
+    .green-dot {
+      padding-top: 227px;
+      box-sizing: border-box;
+    }
+  }
+  
