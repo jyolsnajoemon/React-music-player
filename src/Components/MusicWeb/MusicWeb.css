@@ -1,0 +1,933 @@
+.now-playing {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .now-playing-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1px;
+  }
+  .image-3-icon {
+    height: 251px;
+    width: 238.8px;
+    object-fit: cover;
+  }
+  .bad-and-boujee,
+  .image-3-icon,
+  .migos {
+    position: relative;
+  }
+  .migos {
+    font-size: 20px;
+    color: #dedede;
+  }
+  .bad-and-boujee-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px 0;
+  }
+  .div {
+    align-self: stretch;
+    position: relative;
+  }
+  .wrapper {
+    width: 28.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px 0 0;
+    box-sizing: border-box;
+  }
+  .div1 {
+    width: 35.5px;
+    position: relative;
+    text-align: right;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .frame-parent3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .frame-child,
+  .frame-item {
+    position: absolute;
+    top: 0;
+    left: 1.2px;
+    border-radius: 8px;
+    background-color: #7c7c7c;
+    width: 100%;
+    height: 100%;
+  }
+  .frame-item {
+    left: 0;
+    background-color: #fff;
+    width: 104px;
+    height: 5px;
+    z-index: 1;
+  }
+  .rectangle-parent {
+    height: 5px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .frame-parent2,
+  .frame-wrapper1 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-wrapper1 {
+    flex-direction: row;
+    padding: 0 0 0 1.1999999999999886px;
+    box-sizing: border-box;
+  }
+  .frame-parent2 {
+    flex-direction: column;
+    gap: 9px 0;
+  }
+  .iconsaxlinearmusicfilter {
+    width: 23.6px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 3px;
+  }
+  .iconsaxlinearprevious {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .blinding-lights-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0 0;
+  }
+  .iconsaxlinearnext,
+  .iconsaxlinearplay {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .iconsaxlinearnext {
+    width: 24px;
+    height: 24px;
+  }
+  .back-rectangle,
+  .blinding-lights-title1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0 0;
+  }
+  .back-rectangle {
+    flex-direction: row;
+    padding: 0 14.899999999999975px 0 0;
+    gap: 0 24px;
+  }
+  .iconsaxlinearrepeat {
+    width: 23.6px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .image-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 3px;
+  }
+  .duration-icon,
+  .frame-parent4 {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .frame-parent4 {
+    flex: 1;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .duration-icon {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 5px 0 4.699999999999989px;
+    box-sizing: border-box;
+  }
+  .frame-parent1 {
+    align-self: stretch;
+    gap: 13px 0;
+    font-size: 12px;
+    color: #888;
+  }
+  .frame-container,
+  .frame-div,
+  .frame-parent1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-div {
+    align-self: stretch;
+    gap: 31px 0;
+  }
+  .frame-container {
+    width: 358.1px;
+    padding: 35px 0 0;
+    box-sizing: border-box;
+    min-width: 358.09999999999997px;
+  }
+  .image-3-parent {
+    align-self: stretch;
+    background: linear-gradient(
+        99.76deg,
+        rgba(26, 23, 24, 0.4),
+        rgba(84, 64, 71, 0.1)
+      ),
+      rgba(16, 16, 16, 0.4);
+    box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(50px);
+    border: 1px solid #282727;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-direction: row;
+    gap: 0 35.2px;
+    z-index: 1;
+    font-size: 30px;
+  }
+  .frame-group,
+  .frame-wrapper,
+  .image-3-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-group {
+    flex: 1;
+    flex-direction: column;
+    gap: 19.8px 0;
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  .queue {
+    position: relative;
+  }
+  .queue-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 25px 0 24.899999999999977px;
+  }
+  .frame-inner {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .back-icon {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .back-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 47px 0 0;
+  }
+  .image-2-icon {
+    height: 100px;
+    width: 101px;
+    position: relative;
+    border-radius: 5.81px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .image-2-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 27px;
+  }
+  .blinding-lights {
+    font-weight: 500;
+  }
+  .blinding-lights,
+  .the-weeknd {
+    position: relative;
+    z-index: 1;
+  }
+  .media-player-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 25px;
+    text-align: right;
+    font-size: 20px;
+    color: #b4b4b4;
+  }
+  .blinding-lights-parent {
+    flex-direction: column;
+    gap: 5px 0;
+  }
+  .blinding-lights-parent,
+  .frame-parent6,
+  .frame-parent7 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent7 {
+    flex-direction: column;
+    gap: 12px 0;
+  }
+  .frame-parent6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 990.7px;
+    flex-direction: row;
+    padding: 29px 5.899999999999977px 22px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .forward-icon,
+  .song-list-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+  }
+  .forward-icon {
+    top: 7px;
+    left: 7px;
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .song-list {
+    position: absolute;
+    top: 66px;
+    left: 970.9px;
+    width: 40px;
+    height: 40px;
+  }
+  .frame-parent5,
+  .queue-text {
+    align-self: stretch;
+    max-width: 100%;
+  }
+  .frame-parent5 {
+    height: 221px;
+    position: relative;
+    font-size: 24px;
+  }
+  .queue-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 5px;
+    box-sizing: border-box;
+    gap: 9px 0;
+    font-size: 32px;
+  }
+  .top-songs {
+    position: relative;
+  }
+  .top-songs-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 3px;
+    flex-shrink: 0;
+    font-size: 32px;
+  }
+  .duration,
+  .song {
+    position: relative;
+    font-weight: 500;
+  }
+  .song-parent {
+    width: 495px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 100%;
+  }
+  .frame-parent9,
+  .vector-icon {
+    align-self: stretch;
+    max-width: 100%;
+  }
+  .vector-icon {
+    height: 1px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-parent9 {
+    height: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1px 0 0;
+    box-sizing: border-box;
+    gap: 13px 0;
+    font-size: 20px;
+    color: #939393;
+  }
+  .image-2-icon1 {
+    height: 87px;
+    width: 87.2px;
+    position: relative;
+    border-radius: 5.81px;
+    object-fit: cover;
+  }
+  .blinding-lights1 {
+    position: relative;
+    font-weight: 500;
+  }
+  .the-weeknd1 {
+    position: relative;
+    font-size: 20px;
+    color: #b4b4b4;
+  }
+  .chris-brown-artist-name,
+  .showme-song-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .chris-brown-artist-name {
+    gap: 9px 0;
+  }
+  .showme-song-title {
+    flex: 1;
+    padding: 12.5px 0 0;
+    box-sizing: border-box;
+    min-width: 172px;
+  }
+  .empty-space {
+    position: relative;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .empty-space-wrapper,
+  .image-2-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .empty-space-wrapper {
+    flex-direction: column;
+    padding: 29px 0 0;
+    font-size: 20px;
+    color: #b1b1b1;
+  }
+  .image-2-parent {
+    width: 463px;
+    flex-direction: row;
+    gap: 0 28px;
+    max-width: 100%;
+  }
+  .iconsaxlinearheart {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .iconsaxlinearheart-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10.5px 0 0;
+  }
+  .wrapper-group-1-child {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    transform: scale(2.158);
+  }
+  .wrapper-group-1 {
+    width: 53px;
+    height: 53px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chatimg-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 9px 0 0;
+  }
+  .more-options-button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #393939;
+    width: 100%;
+    height: 100%;
+  }
+  .iconsaxlinearmore {
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    width: 26.5px;
+    height: 26.5px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .more-options-button-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 53px;
+    width: 53px;
+    position: relative;
+  }
+  .frame-parent11 {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .frame-parent10,
+  .frame-parent11,
+  .frame-wrapper2 {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-wrapper2 {
+    width: 203px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 17px 0 0;
+    box-sizing: border-box;
+  }
+  .frame-parent10 {
+    width: 906px;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-shrink: 0;
+    gap: 20px;
+  }
+  .frame-child1 {
+    align-self: stretch;
+    height: 1px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .image-2-icon2 {
+    height: 87px;
+    width: 87.2px;
+    position: relative;
+    border-radius: 5.81px;
+    object-fit: cover;
+  }
+  .show-me {
+    position: relative;
+    font-weight: 500;
+  }
+  .chris-brown {
+    position: relative;
+    font-size: 20px;
+    color: #b4b4b4;
+  }
+  .show-me-parent {
+    flex-direction: column;
+    gap: 9px 0;
+  }
+  .frame-wrapper3,
+  .image-2-group,
+  .show-me-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-wrapper3 {
+    flex-direction: column;
+    padding: 12.5px 0 0;
+  }
+  .image-2-group {
+    flex-direction: row;
+    gap: 0 28px;
+  }
+  .div2 {
+    position: relative;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .container {
+    width: 116.2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 32px 0 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #b1b1b1;
+  }
+  .iconsaxlinearheart1 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .green-dot-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10.5px 0 0;
+  }
+  .wrapper-group-2-child {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    transform: scale(2.158);
+  }
+  .wrapper-group-2 {
+    width: 53px;
+    height: 53px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .chat-text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 12px 0 0;
+  }
+  .ellipse-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #393939;
+    width: 100%;
+    height: 100%;
+  }
+  .iconsaxlinearmore1 {
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    width: 26.5px;
+    height: 26.5px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .ellipse-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 53px;
+    width: 53px;
+    position: relative;
+  }
+  .green-dot-group-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .frame-parent12,
+  .frame-wrapper4,
+  .green-dot-group-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .frame-wrapper4 {
+    width: 206px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 17px 0 0;
+    box-sizing: border-box;
+  }
+  .frame-parent12 {
+    width: 908px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .frame-parent8 {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px 0;
+  }
+  .frame-parent,
+  .frame-parent8,
+  .music-web-inner,
+  .top-songs-section {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .top-songs-section {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 19px;
+    box-sizing: border-box;
+    font-size: 24px;
+  }
+  .frame-parent,
+  .music-web-inner {
+    flex-direction: column;
+  }
+  .frame-parent {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: 33px 0;
+  }
+  .music-web-inner {
+    flex: 1;
+    align-items: flex-start;
+    padding: 84.30000000000001px 5.899999999999977px 0 0;
+    box-sizing: border-box;
+    min-width: 661px;
+  }
+  .frame-child2 {
+    height: 471px;
+    width: 471px;
+    position: absolute;
+    margin: 0 !important;
+    right: -175px;
+    bottom: -111px;
+    border-radius: 50%;
+    background: linear-gradient(
+      222.48deg,
+      rgba(138, 22, 192, 0.4),
+      rgba(194, 51, 137, 0.39)
+    );
+    filter: blur(500px);
+  }
+  .ellipse-group {
+    width: 342px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+  }
+  .music-web-child {
+    height: 41px;
+    width: 41px;
+    position: relative;
+    display: none;
+    z-index: 1;
+  }
+  .music-web-item {
+    height: 471px;
+    width: 471px;
+    position: absolute;
+    margin: 0 !important;
+    top: -158px;
+    left: -101px;
+    border-radius: 50%;
+    background-color: rgba(188, 62, 100, 0.6);
+    filter: blur(500px);
+  }
+  .music-web {
+    width: 100%;
+    position: relative;
+    background-color: #111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 25.1px;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 48px;
+    color: #fff;
+    font-family: Inter;
+  }
+  @media screen and (max-width: 1125px) {
+    .music-web-inner {
+      padding-top: 55px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .now-playing {
+      font-size: 38px;
+    }
+    .bad-and-boujee {
+      font-size: 24px;
+    }
+    .queue,
+    .top-songs {
+      font-size: 26px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .frame-container,
+    .image-3-icon {
+      flex: 1;
+    }
+    .image-3-parent {
+      flex-wrap: wrap;
+      gap: 0 18px;
+    }
+    .frame-parent10,
+    .frame-parent12 {
+      flex-wrap: wrap;
+    }
+    .frame-parent {
+      gap: 16px 0;
+    }
+    .music-web-inner {
+      padding-top: 36px;
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .now-playing {
+      font-size: 29px;
+    }
+    .bad-and-boujee {
+      font-size: 18px;
+    }
+    .migos {
+      font-size: 16px;
+    }
+    .frame-parent4 {
+      flex-wrap: wrap;
+    }
+    .frame-div {
+      gap: 15px 0;
+    }
+    .frame-container {
+      min-width: 100%;
+    }
+    .blinding-lights,
+    .queue {
+      font-size: 19px;
+    }
+    .the-weeknd {
+      font-size: 16px;
+    }
+    .top-songs {
+      font-size: 19px;
+    }
+    .duration,
+    .song {
+      font-size: 16px;
+    }
+    .song-parent {
+      flex-wrap: wrap;
+    }
+    .frame-parent9 {
+      height: auto;
+    }
+    .blinding-lights1 {
+      font-size: 19px;
+    }
+    .empty-space,
+    .the-weeknd1 {
+      font-size: 16px;
+    }
+    .image-2-parent {
+      flex-wrap: wrap;
+    }
+    .show-me {
+      font-size: 19px;
+    }
+    .chris-brown,
+    .div2 {
+      font-size: 16px;
+    }
+  }
+  
