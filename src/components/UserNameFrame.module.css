@@ -1,0 +1,590 @@
+.songDurationCircle {
+  height: 72px;
+  width: 72px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.account,
+.user1 {
+  position: relative;
+}
+.user1 {
+  height: 29px;
+  font-weight: 600;
+  display: inline-block;
+  white-space: nowrap;
+}
+.account {
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray-300);
+}
+.userProfileFrame {
+  flex-direction: column;
+  gap: 8px 0;
+}
+.newMessageIndicator,
+.songDurationFrame,
+.userProfileFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.songDurationFrame {
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-0) var(--padding-0);
+}
+.newMessageIndicator {
+  flex-direction: row;
+  gap: 0 24px;
+}
+.iconsaxlinearnotification {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.userNameFrameChild {
+  width: 384.5px;
+  height: 0;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.greenDot1 {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #8a16c0, #c23389);
+  display: none;
+}
+.chats {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.ellipseChatChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+}
+.chatImg11Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  width: 71px;
+  height: 71px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipseChat {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 71px;
+  width: 71px;
+}
+.ellipseChat,
+.friend1 {
+  position: relative;
+}
+.ellipseChatParent,
+.friend1Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.friend1Wrapper {
+  flex-direction: column;
+  padding: var(--padding-2xl) var(--padding-0) var(--padding-0);
+}
+.ellipseChatParent {
+  flex-direction: row;
+  gap: 0 28px;
+}
+.greenDot5,
+.greenDot6 {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 223px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #a816c0, #c23389);
+}
+.greenDot6 {
+  bottom: 30px;
+}
+.chatFriendChatimgFrameChild,
+.chatImg21Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 71px;
+  height: 71px;
+}
+.chatImg21Icon {
+  border-radius: var(--br-81xl);
+  object-fit: cover;
+  z-index: 1;
+}
+.chatFriendChatimgFrame {
+  height: 71px;
+  width: 71px;
+  position: relative;
+}
+.friend2 {
+  position: relative;
+}
+.chatArea,
+.chatimgEllipse {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chatArea {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-2xl) var(--padding-0) var(--padding-0);
+}
+.chatimgEllipse {
+  width: 196px;
+  flex-direction: row;
+  gap: 0 29px;
+}
+.greenDot7 {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #a816c0, #c23389);
+  z-index: 1;
+}
+.chatList,
+.chatimgEllipseParent {
+  display: flex;
+  align-items: flex-start;
+}
+.chatList {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-0) var(--padding-0);
+}
+.chatimgEllipseParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.ellipseChatItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+}
+.chatImg31Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  width: 71px;
+  height: 71px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipseChat1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 71px;
+  width: 71px;
+  position: relative;
+}
+.friend3 {
+  align-self: stretch;
+  position: relative;
+}
+.ellipseChatGroup,
+.friend3Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.friend3Wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-6xl) var(--padding-0) var(--padding-0);
+}
+.ellipseChatGroup {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 33px;
+}
+.ellipseChatInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+}
+.chatImg41Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  width: 71px;
+  height: 71px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipseChat2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 71px;
+  width: 71px;
+}
+.ellipseChat2,
+.friend4 {
+  position: relative;
+}
+.ellipseChatContainer,
+.friend4Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.friend4Wrapper {
+  flex-direction: column;
+  padding: var(--padding-2xl) var(--padding-0) var(--padding-0);
+}
+.ellipseChatContainer {
+  flex-direction: row;
+  gap: 0 33px;
+}
+.chatImg51Icon,
+.ellipseDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ellipseDiv {
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+}
+.chatImg51Icon {
+  border-radius: var(--br-81xl);
+  width: 71px;
+  height: 71px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipseChat3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 71px;
+  width: 71px;
+}
+.ellipseChat3,
+.friend5 {
+  position: relative;
+}
+.frameDiv,
+.friend5Wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.friend5Wrapper {
+  flex-direction: column;
+  padding: var(--padding-7xl) var(--padding-0) var(--padding-0);
+}
+.frameDiv {
+  flex-direction: row;
+  gap: 0 32px;
+}
+.ellipseChatChild1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+}
+.chatImg61Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  width: 71px;
+  height: 71px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipseChat4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 71px;
+  width: 71px;
+}
+.ellipseChat4,
+.friend6 {
+  position: relative;
+}
+.friend6Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-0) var(--padding-0);
+}
+.ellipseChatParent1 {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.ellipseChatChild2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+}
+.chatImg71Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  width: 71px;
+  height: 71px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipseChat5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 71px;
+  width: 71px;
+}
+.ellipseChat5,
+.friend7 {
+  position: relative;
+}
+.friend7Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-0) var(--padding-0);
+}
+.ellipseChatParent2 {
+  width: 203px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.activeChat {
+  width: 254px;
+  flex-direction: column;
+  gap: 28px 0;
+}
+.activeChat,
+.frameGroup,
+.greenDotFriendFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: 28px 0;
+}
+.greenDotFriendFrame {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.offlineStatus {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+  width: 100%;
+  height: 100%;
+}
+.chatImg81Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  width: 71px;
+  height: 71px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ellipseChat6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 71px;
+  width: 71px;
+}
+.ellipseChat6,
+.friend8 {
+  position: relative;
+}
+.chatImage,
+.friendLabel {
+  display: flex;
+  align-items: flex-start;
+}
+.friendLabel {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-0) var(--padding-0);
+}
+.chatImage {
+  width: 205px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.greenDot8 {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: 30px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #a816c0, #c23389);
+}
+.greenDotFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 39px 0;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 28px 0;
+  font-size: var(--font-size-5xl);
+}
+.chatChatsFrame,
+.frameParent,
+.userNameFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chatChatsFrame {
+  align-self: stretch;
+  gap: 55px 0;
+  font-size: var(--font-size-21xl);
+}
+.userNameFrame {
+  flex: 1;
+  border-left: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-54xl) var(--padding-13xl) var(--padding-73xl)
+    var(--padding-16xl);
+  gap: 86px 0;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1025px) {
+  .chats {
+    font-size: var(--font-size-13xl);
+  }
+  .userNameFrame {
+    padding-top: var(--padding-28xl);
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .userNameFrame {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .user1 {
+    font-size: var(--font-size-lgi);
+  }
+  .chats {
+    font-size: var(--font-size-5xl);
+  }
+  .friend1,
+  .friend2,
+  .friend3 {
+    font-size: var(--font-size-lgi);
+  }
+  .ellipseChatGroup {
+    gap: 0 16px;
+  }
+  .friend4,
+  .friend5,
+  .friend6,
+  .friend7,
+  .friend8 {
+    font-size: var(--font-size-lgi);
+  }
+  .greenDotFrame {
+    gap: 19px 0;
+  }
+  .chatChatsFrame {
+    gap: 27px 0;
+  }
+  .userNameFrame {
+    gap: 43px 0;
+  }
+}

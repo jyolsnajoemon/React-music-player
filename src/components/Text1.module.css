@@ -1,0 +1,860 @@
+.nowPlaying {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.parentBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-12xs);
+}
+.image3Icon {
+  height: 251px;
+  width: 238.8px;
+  object-fit: cover;
+}
+.badAndBoujee,
+.image3Icon,
+.migos {
+  position: relative;
+}
+.migos {
+  font-size: var(--font-size-xl);
+  color: var(--color-gainsboro-200);
+}
+.badAndBoujeeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 13px 0;
+}
+.parentSongList {
+  align-self: stretch;
+  position: relative;
+}
+.forwardArrow {
+  width: 28.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.durationMarker {
+  width: 35.5px;
+  position: relative;
+  text-align: right;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.ellipseShape {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.userProfileChild,
+.userProfileItem {
+  position: absolute;
+  top: 0;
+  left: 1.2px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-300);
+  width: 100%;
+  height: 100%;
+}
+.userProfileItem {
+  left: 0;
+  background-color: var(--color-white);
+  width: 104px;
+  height: 5px;
+  z-index: 1;
+}
+.userProfile {
+  height: 5px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.ellipseShapeParent,
+.verticalVector {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.verticalVector {
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-0)
+    1.1999999999999886px;
+  box-sizing: border-box;
+}
+.ellipseShapeParent {
+  flex-direction: column;
+  gap: 9px 0;
+}
+.iconsaxlinearmusicfilter {
+  width: 23.6px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-10xs);
+}
+.iconsaxlinearprevious {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.blindingLightsTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-0) var(--padding-0);
+}
+.iconsaxlinearnext,
+.iconsaxlinearplay {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconsaxlinearnext {
+  width: 24px;
+  height: 24px;
+}
+.backRectangle,
+.blindingLightsTitle1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-0) var(--padding-0);
+}
+.backRectangle {
+  flex-direction: row;
+  padding: var(--padding-0) 14.899999999999975px var(--padding-0)
+    var(--padding-0);
+  gap: 0 24px;
+}
+.iconsaxlinearrepeat {
+  width: 23.6px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.imageContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-10xs)
+    var(--padding-0);
+}
+.durationIcon,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent1 {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.durationIcon {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-8xs) var(--padding-0)
+    4.699999999999989px;
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  gap: 13px 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-200);
+}
+.blurEffect,
+.frameParent,
+.queue {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.queue {
+  align-self: stretch;
+  gap: 31px 0;
+}
+.blurEffect {
+  width: 358.1px;
+  padding: var(--padding-16xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 358.09999999999997px;
+}
+.imageHolder {
+  align-self: stretch;
+  background: linear-gradient(
+      99.76deg,
+      rgba(26, 23, 24, 0.4),
+      rgba(84, 64, 71, 0.1)
+    ),
+    rgba(16, 16, 16, 0.4);
+  box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(50px);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  gap: 0 35.2px;
+  z-index: 1;
+  font-size: var(--font-size-11xl);
+}
+.group,
+.imageHolder,
+.text1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.text1 {
+  flex: 1;
+  flex-direction: column;
+  gap: 19.1px 0;
+}
+.group {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-xl);
+  box-sizing: border-box;
+}
+.queue1 {
+  position: relative;
+}
+.timerFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-6xl) var(--padding-0)
+    24.899999999999977px;
+}
+.blankFrameForArtChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.backIcon {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.backFrameElement {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) var(--padding-0) var(--padding-0);
+}
+.image2Icon {
+  height: 100px;
+  width: 101px;
+  position: relative;
+  border-radius: 5.81px;
+  object-fit: cover;
+  z-index: 1;
+}
+.weekndInfoBox {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-8xl);
+}
+.blindingLights {
+  font-weight: 500;
+}
+.blindingLights,
+.theWeeknd {
+  position: relative;
+  z-index: 1;
+}
+.mediaPlayerControls {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-6xl);
+  text-align: right;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray-100);
+}
+.loveSymbol {
+  flex-direction: column;
+  gap: 4px 0;
+}
+.blankFrameForArt,
+.loveSymbol,
+.songInfoWithIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.songInfoWithIcon {
+  flex-direction: column;
+  gap: 12px 0;
+}
+.blankFrameForArt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 990.7px;
+  flex-direction: row;
+  padding: var(--padding-10xl) 5.899999999999977px var(--padding-4xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.forwardIcon,
+.songListChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+}
+.forwardIcon {
+  top: 7px;
+  left: 7px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  z-index: 2;
+}
+.songList {
+  position: absolute;
+  top: 66px;
+  left: 970.9px;
+  width: 40px;
+  height: 40px;
+}
+.designParentFrame,
+.queueText {
+  align-self: stretch;
+  max-width: 100%;
+}
+.designParentFrame {
+  height: 221px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+}
+.queueText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-8xs);
+  box-sizing: border-box;
+  gap: 9px 0;
+  font-size: var(--font-size-13xl);
+}
+.topSongs {
+  position: relative;
+}
+.chatBubbleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-0) var(--padding-10xs);
+  flex-shrink: 0;
+  font-size: var(--font-size-13xl);
+}
+.duration,
+.song {
+  position: relative;
+  font-weight: 500;
+}
+.songDurationText {
+  width: 495px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.singleSongItemChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.singleSongItem {
+  align-self: stretch;
+  height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-12xs) var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  gap: 13px 0;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+}
+.image2Icon1 {
+  height: 87px;
+  width: 87.2px;
+  position: relative;
+  border-radius: 5.81px;
+  object-fit: cover;
+}
+.blindingLights1 {
+  position: relative;
+  font-weight: 500;
+}
+.theWeeknd1 {
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray-100);
+}
+.chrisBrownArtistName,
+.showmeSongTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chrisBrownArtistName {
+  gap: 9px 0;
+}
+.showmeSongTitle {
+  flex: 1;
+  padding: var(--padding-smi-5) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  min-width: 172px;
+}
+.emptySpace {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.emptySpaceWrapper,
+.image2Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emptySpaceWrapper {
+  flex-direction: column;
+  padding: var(--padding-10xl) var(--padding-0) var(--padding-0);
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray-200);
+}
+.image2Parent {
+  width: 463px;
+  flex-direction: row;
+  gap: 0 28px;
+  max-width: 100%;
+}
+.iconsaxlinearheart {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.greenDotGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-5) var(--padding-0) var(--padding-0);
+}
+.wrapperGroup1Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  transform: scale(2.158);
+}
+.wrapperGroup1 {
+  width: 53px;
+  height: 53px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chatimgFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-4xs) var(--padding-0) var(--padding-0);
+}
+.moreOptionsButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-200);
+  width: 100%;
+  height: 100%;
+}
+.iconsaxlinearmore {
+  position: absolute;
+  top: 13px;
+  left: 14px;
+  width: 26.5px;
+  height: 26.5px;
+  overflow: hidden;
+  z-index: 1;
+}
+.moreOptionsButtonParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 53px;
+  width: 53px;
+  position: relative;
+}
+.greenDotGroupParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameGroup,
+.frameWrapper,
+.greenDotGroupParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper {
+  width: 203px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.frameGroup {
+  width: 906px;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+}
+.vectorDividerIcon {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image2Icon2 {
+  height: 87px;
+  width: 87.2px;
+  position: relative;
+  border-radius: 5.81px;
+  object-fit: cover;
+}
+.showMe {
+  position: relative;
+  font-weight: 500;
+}
+.chrisBrown {
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray-100);
+}
+.showMeParent {
+  flex-direction: column;
+  gap: 9px 0;
+}
+.frameDiv,
+.image2Group,
+.showMeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex-direction: column;
+  padding: var(--padding-smi-5) var(--padding-0) var(--padding-0);
+}
+.image2Group {
+  flex-direction: row;
+  gap: 0 28px;
+}
+.div {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.wrapper {
+  width: 116.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkgray-200);
+}
+.iconsaxlinearheart1 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.greenDotGroup1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-5) var(--padding-0) var(--padding-0);
+}
+.wrapperGroup2Child {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  transform: scale(2.158);
+}
+.wrapperGroup2 {
+  width: 53px;
+  height: 53px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chatTextArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-0) var(--padding-xs) var(--padding-0) var(--padding-0);
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-darkslategray-200);
+  width: 100%;
+  height: 100%;
+}
+.iconsaxlinearmore1 {
+  position: absolute;
+  top: 13px;
+  left: 14px;
+  width: 26.5px;
+  height: 26.5px;
+  overflow: hidden;
+  z-index: 1;
+}
+.ellipseParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 53px;
+  width: 53px;
+  position: relative;
+}
+.greenDotGroupGroup {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameContainer,
+.frameWrapper1,
+.greenDotGroupGroup {
+  display: flex;
+  align-items: flex-start;
+}
+.frameWrapper1 {
+  width: 206px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mid) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.frameContainer {
+  width: 908px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.chatBubbleGroupParent,
+.text,
+.topSongsSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.chatBubbleGroupParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 28px 0;
+}
+.text,
+.topSongsSection {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-lgi);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.text {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-0) var(--padding-0) 1.1368683772161605e-13px;
+  gap: 33px 0;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1025px) {
+  .nowPlaying {
+    font-size: var(--font-size-19xl);
+  }
+  .badAndBoujee {
+    font-size: var(--font-size-5xl);
+  }
+  .queue1,
+  .topSongs {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .blurEffect,
+  .image3Icon {
+    flex: 1;
+  }
+  .imageHolder {
+    gap: 0 18px;
+  }
+  .frameContainer,
+  .frameGroup,
+  .imageHolder {
+    flex-wrap: wrap;
+  }
+  .text {
+    gap: 16px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nowPlaying {
+    font-size: var(--font-size-10xl);
+  }
+  .badAndBoujee {
+    font-size: var(--font-size-lg);
+  }
+  .migos {
+    font-size: var(--font-size-base);
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+  .queue {
+    gap: 15px 0;
+  }
+  .blurEffect {
+    min-width: 100%;
+  }
+  .blindingLights,
+  .queue1 {
+    font-size: var(--font-size-lgi);
+  }
+  .theWeeknd {
+    font-size: var(--font-size-base);
+  }
+  .topSongs {
+    font-size: var(--font-size-lgi);
+  }
+  .duration,
+  .song {
+    font-size: var(--font-size-base);
+  }
+  .songDurationText {
+    flex-wrap: wrap;
+  }
+  .singleSongItem {
+    height: auto;
+  }
+  .blindingLights1 {
+    font-size: var(--font-size-lgi);
+  }
+  .emptySpace,
+  .theWeeknd1 {
+    font-size: var(--font-size-base);
+  }
+  .image2Parent {
+    flex-wrap: wrap;
+  }
+  .showMe {
+    font-size: var(--font-size-lgi);
+  }
+  .chrisBrown,
+  .div {
+    font-size: var(--font-size-base);
+  }
+}

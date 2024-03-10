@@ -1,0 +1,80 @@
+.group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 83.60000000000002px 5.899999999999977px var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  min-width: 661px;
+  max-width: 100%;
+}
+.chatBubble {
+  height: 471px;
+  width: 471px;
+  position: absolute;
+  margin: 0 !important;
+  right: -175px;
+  bottom: -111px;
+  border-radius: 50%;
+  background: linear-gradient(
+    222.48deg,
+    rgba(138, 22, 192, 0.4),
+    rgba(194, 51, 137, 0.39)
+  );
+  filter: blur(500px);
+}
+.profilePictureEllipse {
+  width: 342px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.musicWebChild {
+  height: 41px;
+  width: 41px;
+  position: relative;
+  display: none;
+  z-index: 1;
+}
+.musicWebItem {
+  height: 471px;
+  width: 471px;
+  position: absolute;
+  margin: 0 !important;
+  top: -158px;
+  left: -101px;
+  border-radius: 50%;
+  background-color: rgba(188, 62, 100, 0.6);
+  filter: blur(500px);
+}
+.musicWeb {
+  width: 100%;
+  position: relative;
+  background-color: #111;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 25.1px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .group {
+    padding-top: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .group {
+    padding-top: var(--padding-16xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
